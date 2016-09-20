@@ -8,6 +8,8 @@ Source0:        https://bitbucket.org/luisangelsm/yacreader/downloads/%{name}-%{
 BuildRequires:  qt5-qtbase-devel, libqt5multimedia-devel, libqt5script-devel, libqt5declarative-devel
 BuildRequires:  libpoppler-qt5-devel, libglu-devel, mesa-common-devel, desktop-file-utils
 
+%undefine _build_pkgcheck_set
+
 %description
 A cross platform comic reader and library manager.
 
