@@ -1,0 +1,2 @@
+# yacreader
+YACreader for OpenMandriva
